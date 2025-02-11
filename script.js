@@ -11,19 +11,19 @@ class Animal {
 	}
 
 	makeSound(){
-		console.log(`the ${this._species} makes asound`)
+		console.log(`the ${this._species} makes asound`);
 	}
 }
 
 class Dog extends Animal {
 	bark(){
-		console.log("woof")
+		console.log("woof");
 	}
 }
 
 class Cat extends Animal {
 	purr(){
-		console.log("puur")
+		console.log("puur");
 	}
 }
 
